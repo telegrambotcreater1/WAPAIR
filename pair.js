@@ -81,7 +81,7 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `✦ 𝐅𝐈𝐋𝐌𝐏𝐔𝐁𝐋𝐈𝐒𝐇𝐄𝐑.𝐋𝐊 ✦\n\n👉 ${string_session} 👈\n\n*This Is the Your Session ID, Copy This Id And Paste Into config.js File*\n\n*WhtasApp : *\n\n*wa.me/94784499358*\n\n*You Can Join Our Whatsapp Group*\n\n*https://chat.whatsapp.com/JARnaknVTgJ5MqwqbcYQqo*`;
+            const sid = `✦ 𝐅𝐈𝐋𝐌𝐏𝐔𝐁𝐋𝐈𝐒𝐇𝐄𝐑.𝐋𝐊 ✦\n\n👉 ${string_session} 👈\n\n*This Is the Your Session ID, Copy This Id And Paste Into config.js File*\n\n*WhtasApp :*\n\n*https://wa.me/94784499358*\n\n*You Can Join Our Whatsapp Group*\n\n*https://chat.whatsapp.com/JARnaknVTgJ5MqwqbcYQqo*\n\n*You Can Join Our Whatsapp Channel*\n\n*https://whatsapp.com/channel/0029Vb1vSny60eBduncpGt01*`;
             const mg = `🛑 *Do Not Share This Code To Anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
